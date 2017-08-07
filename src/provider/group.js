@@ -13,13 +13,12 @@ import Go from '../go'
 import SetGroup from '../set/group'
 import SetUser from '../set/user'
 // storage
-import Storage from '../util/storage'
+import Storage from '../mwx/storage'
 // doa
 import Dao from '../dao/base'
 import Group from '../dao/group'
 import Product from '../dao/product'
 import User from '../dao/user'
-import Istorage from '../mwx/storage'
 // filter
 import ImageFilter from '../filter/image'
 // middleware
@@ -84,9 +83,9 @@ export default {
       const id = val.group.id
       Print.Log(id)
 
-      Istorage.remove(Istorage.description)
-      Istorage.remove(Istorage.image)
-      Istorage.remove(Istorage.imageList)
+      Storage.remove(Storage.description)
+      Storage.remove(Storage.image)
+      Storage.remove(Storage.imageList)
 
       if (typeId === 1) {
         Go.placardShowShare(id)

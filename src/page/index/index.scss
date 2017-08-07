@@ -1,11 +1,17 @@
 page {
     // display: flex;
     // flex-direction: column-reverse;
-    text-align: center;
+    // text-align: center;
 }
 
 .index-he {
     height: 100%;
+}
+input{
+    border-bottom: 1px solid #ccc;
+}
+.radio{
+    margin-right: 20px;
 }
 
 .index-logo {

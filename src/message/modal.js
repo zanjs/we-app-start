@@ -8,6 +8,14 @@ export default {
     const content = '已截止啦'
     Msg.showModal(content)
   },
+  success() {
+    const content = '成功'
+    Msg.showModal(content)
+  },
+  submitIncomplete() {
+    const content = '请填写完整'
+    Msg.showModal(content)
+  },
   commentNull() {
     const content = '已截止啦'
     Msg.showModal(content)

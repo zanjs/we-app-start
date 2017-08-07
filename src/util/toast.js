@@ -1,4 +1,4 @@
-import BASE64 from './base64'
+import BASE64 from '../data/base64'
 // stack
 import Stack from '../mwx/stack'
 

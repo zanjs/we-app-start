@@ -6,8 +6,6 @@ import GroupMiddleware from '../middleware/group'
 import GroupProvider from '../provider/group'
 import LoginProvider from '../provider/login'
 import StoragePro from '../provider/storage'
-import Istorage from '../mwx/storage'
-import Event from '../mwx/event'
 import ImagePro from '../provider/image'
 // set
 import SetGroup from '../set/group'
