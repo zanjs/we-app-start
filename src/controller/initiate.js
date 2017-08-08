@@ -11,7 +11,7 @@ import MSG from '../mwx/msg'
 import Event from '../mwx/event'
 import GoType from '../provider/goType'
 // page status
-import Status from '../data/status'
+import Status from '../set/status'
 // print
 import Print from '../fn/print'
 // fn

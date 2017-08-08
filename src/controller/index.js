@@ -1,4 +1,4 @@
-import Status from '../data/status'
+import Status from '../set/status'
 import Message from '../message/modal'
 import Event from '../mwx/event'
 import SetIndex from '../set/index'

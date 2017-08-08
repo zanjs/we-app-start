@@ -16,7 +16,7 @@ import Config from '../config'
 import Image from '../mwx/image'
 import Event from '../mwx/event'
 // status
-import Status from '../data/status'
+import Status from '../set/status'
 // go
 import Go from '../go'
 // set

@@ -3,7 +3,7 @@ import STORAGE from '../mwx/storage'
 import LOGIN from '../model/login'
 import LANG from '../lang/lang'
 // stack
-import Status from '../data/status'
+import Status from '../set/status'
 // import MSG from '../mwx/msg'
 
 

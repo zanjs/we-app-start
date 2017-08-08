@@ -5,7 +5,7 @@ import Print from '../fn/print'
 import MSG from '../mwx/msg'
 import Go from '../go'
 // status
-import Status from '../data/status'
+import Status from '../set/status'
 
 export default {
   /**

@@ -23,7 +23,7 @@ import User from '../dao/user'
 import ImageFilter from '../filter/image'
 // middleware
 import GroupMiddleware from '../middleware/group'
-import Status from '../data/status'
+import Status from '../set/status'
 // fn
 import GroupFn from '../fn/group'
 
