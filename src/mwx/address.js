@@ -11,13 +11,11 @@ import LANG from '../lang/lang'
 export default {
   /**
    * 获取当前的地理位置、速度
-   *
    * @服务接口返回字段
    * @apiSuccess {Number} latitude  纬度，浮点数，范围为-90~90，负数表示南纬.
    * @apiSuccess {Number} longitude  经度，浮点数，范围为-180~180，负数表示西经.
    * @apiSuccess {Number} speed  速度，浮点数，单位m/s.
    * @apiSuccess {Number} accuracy  位置的精确度.
-   *
    * @param {string} [type='wgs84'] wgs84 返回 gps 坐标，gcj02 返回可用于wx.openLocation的坐标
    * @returns
    */
@@ -33,13 +31,11 @@ export default {
   },
   /**
    * 打开地图选择位置
-   *
    * @服务接口返回字段
    * @apiSuccess {String} name  位置名称.
    * @apiSuccess {String} address  详细地址.
    * @apiSuccess {Number} latitude  纬度，浮点数，范围为-90~90，负数表示南纬.
    * @apiSuccess {Number} longitude  经度，浮点数，范围为-180~180，负数表示西经.
-   *
    * @returns
    */
   chooseLocation() {
@@ -56,7 +52,6 @@ export default {
   },
   /**
    * 使用微信内置地图查看位置
-   *
    * @param {Float} latitude 纬度，范围为-90~90，负数表示南纬
    * @param {Float} longitude 经度，范围为-180~180，负数表示西经
    * @returns
@@ -77,7 +72,6 @@ export default {
    * 调起用户编辑收货地址原生界面，并在编辑完成后返回用户选择的地址
    * api: https://mp.weixin.qq.com/debug/wxadoc/dev/api/address.html
    * code: 0=>无错误 1=> 取消 -1=> 通信地址授权失败
-   *
    * @returns
    */
   chooseAddress() {
@@ -105,5 +99,4 @@ export default {
       })
     })
   },
-
 }

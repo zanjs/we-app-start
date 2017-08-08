@@ -1,7 +1,7 @@
 // stack
 import Stack from '../mwx/stack'
 import EmailDao from '../dao/email'
-import Print from '../fn/print'
+import Print from '../util/print'
 import MSG from '../mwx/msg'
 import Go from '../go'
 // status

@@ -1,4 +1,4 @@
-import Print from '../fn/print'
+import Print from '../util/print'
 
 export default {
   userKey: 'userKey',

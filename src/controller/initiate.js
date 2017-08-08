@@ -13,7 +13,7 @@ import GoType from '../provider/goType'
 // page status
 import Status from '../set/status'
 // print
-import Print from '../fn/print'
+import Print from '../util/print'
 // fn
 import GroupFn from '../fn/group'
 

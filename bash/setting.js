@@ -1,3 +1,5 @@
+import Config from '../src/config'
+
 const setting = {
   path: './src/',
   dev: {
@@ -11,6 +13,7 @@ const setting = {
     http: 'http://',
   },
   build: {
+    ImgSrc: Config.ImgHost,
     repUrl: 'https://we-app-man.github.io/au-tuan-s/',
     path: './build',
     http: 'https://',

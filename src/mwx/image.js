@@ -11,7 +11,6 @@ export default {
    * 从本地相册选择图片或使用相机拍照。
    * @服务接口返回字段
    * @apiSuccess {string} tempFilePaths  本地文件路径
-   *
    * @param {string}
    * @returns
    */
@@ -33,7 +32,6 @@ export default {
   },
   /**
    * 预览图片
-   *
    * @param {string} current
    * @param {arrary} urls
    * @returns
@@ -44,5 +42,4 @@ export default {
       urls, // 需要预览的图片http链接列表
     })
   },
-
 }

@@ -3,11 +3,11 @@ import {
   Promise,
 } from '../libs/es6-promise'
 // stroage
-import Storage from '../util/storage'
+import Storage from '../mwx/storage'
 import Login from '../middleware/login'
 // Env
 import Env from '../env'
-import Print from '../fn/print'
+import Print from '../util/print'
 
 export default {
   /**

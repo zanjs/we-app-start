@@ -24,8 +24,8 @@ _build = {
     const buildSrc = _setting[type].path
     const repUrl = _setting[type].repUrl
     console.log(file)
-      // repUrl = type === 'dev' ? _setting.devRepUrl : _setting.buildRepUrl
 
+    // repUrl = type === 'dev' ? _setting.devRepUrl : _setting.buildRepUrl
     gulp.src(file, {
         base: _setting.path
       })
@@ -47,12 +47,12 @@ _build = {
       })
       .pipe(sass())
       .on('error', gutil.log)
-    // .pipe(base64({
-    //   extensions: ['svg', 'png', /\.jpg#datauri$/i],
-    //   maxImageSize: 10000 * 2024, // bytes
-    //   debug: true
-    // }))
-    .pipe(rename((path) => {
+      // .pipe(base64({
+      //   extensions: ['svg', 'png', /\.jpg#datauri$/i],
+      //   maxImageSize: 10000 * 2024, // bytes
+      //   debug: true
+      // }))
+      .pipe(rename((path) => {
         path.extname = '.wxss'
       }))
       .pipe(replace(_setting.dev.repUrl, repUrl))
@@ -60,7 +60,7 @@ _build = {
         browsers: ['> 1%'],
         cascade: false
       }))
-      .pipe(replace('img__svg', 'https://au.anla.io/svg'))
+      .pipe(replace('img___src', _setting.build.ImgSrc))
       .pipe(gulp.dest(buildSrc))
   },
   js: function(file, type = 'dev') {

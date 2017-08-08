@@ -26,7 +26,7 @@ import SetComment from '../set/comment'
 import SetProduct from '../set/productShow'
 // fn
 import FnProduct from '../fn/product'
-import Print from '../fn/print'
+import Print from '../util/print'
 // provider
 import GroupProvider from '../provider/group'
 import PreviewPro from '../provider/preview'

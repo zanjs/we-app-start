@@ -22,7 +22,7 @@ import Go from '../go'
 // set
 import SetGroup from '../set/group'
 import SetComment from '../set/comment'
-import Print from '../fn/print'
+import Print from '../util/print'
 // provider
 import GroupProvider from '../provider/group'
 import PreviewPro from '../provider/preview'

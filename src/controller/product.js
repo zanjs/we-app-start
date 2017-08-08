@@ -8,7 +8,7 @@ import GroupProvider from '../provider/group'
 import LoginProvider from '../provider/login'
 import StoragePro from '../provider/storage'
 // print
-import Print from '../fn/print'
+import Print from '../util/print'
 // message
 import Message from '../message/modal'
 // envent

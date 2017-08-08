@@ -7,7 +7,7 @@ import co from '../libs/co'
 // stack
 import Stack from '../mwx/stack'
 import Comment from '../dao/comment'
-import Print from '../fn/print'
+import Print from '../util/print'
 import Go from '../go'
 // set
 import SetGroup from '../set/group'

@@ -6,7 +6,7 @@ import Image from '../dao/image'
 import Stack from '../mwx/stack'
 import WXimage from '../mwx/image'
 import Event from '../mwx/event'
-import Print from '../fn/print'
+import Print from '../util/print'
 import Config from '../config'
 // fn
 import FnImage from '../fn/image'

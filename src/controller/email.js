@@ -1,6 +1,6 @@
 // stack
 import Stack from '../mwx/stack'
-import Print from '../fn/print'
+import Print from '../util/print'
 import Istorage from '../mwx/storage'
 // event
 import Event from '../mwx/event'

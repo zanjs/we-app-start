@@ -8,7 +8,7 @@ import SetRequired from '../set/required'
 import ImagePro from '../provider/image'
 import GroupPro from '../provider/group'
 // print
-import Print from '../fn/print'
+import Print from '../util/print'
 // middleware
 import ImageMiddle from '../middleware/image'
 import GroupMiddleware from '../middleware/group'
