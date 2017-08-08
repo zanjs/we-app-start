@@ -19,9 +19,9 @@ export default {
         n[i] = vm.deepCopy(arrObj[i])
       }
       return n
-    } else {
+    } 
       return arrObj
-    }
+    
   },
   /**
    * 过滤重复数组
@@ -54,9 +54,8 @@ export default {
     const objExp = new RegExp(Expression)
     if (objExp.test(str) === true) {
       return true
-    } else {
-      return false
     }
+    return false
   },
   /**
    * 验证手机号
@@ -74,7 +73,7 @@ export default {
    * @returns
    */
   modFoat(v) {
-    let _max = parseInt(v) + 1
+    const _max = parseInt(v) + 1
     if (_max - v < 1) {
       return _max
     }
@@ -111,7 +110,7 @@ export default {
    */
   fixTwoNum(f_x) {
     let s_x = f_x.toString()
-    var pos_decimal = s_x.indexOf('.')
+    let pos_decimal = s_x.indexOf('.')
     if (pos_decimal < 0) {
       pos_decimal = s_x.length
       s_x += '.'
