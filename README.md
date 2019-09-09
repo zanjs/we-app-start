@@ -1,5 +1,7 @@
 ## 微信小程序模板
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/we-app-start.svg)](https://greenkeeper.io/)
+
 
 ## 架构
 
